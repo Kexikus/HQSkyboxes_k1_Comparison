@@ -11,7 +11,7 @@ body {
 
 .img-comp-container {
   position: relative;
-  height: max(80vh, 51vw); /*should be the same height as the images*/
+  height: min(80vh, 51vw); /*should be the same height as the images*/
 }
 
 .img-comp-img {
@@ -39,8 +39,8 @@ body {
 }
 
 img {
-  height: max(80vh, 51vw);
-  width: max(142vh, 90vw);
+  height: min(80vh, 51vw);
+  width: min(142vh, 90vw);
 }
 </style>
 <script>

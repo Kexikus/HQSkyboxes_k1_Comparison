@@ -11,7 +11,7 @@ body {
 
 .img-comp-container {
   position: relative;
-  height: 1080px; /*should be the same height as the images*/
+  height: max(80vh, 51vw); /*should be the same height as the images*/
 }
 
 .img-comp-img {
@@ -39,7 +39,8 @@ body {
 }
 
 img {
-  max-width: 90vw;
+  height: max(80vh, 51vw);
+  width: max(142vh, 90vw);
 }
 </style>
 <script>
@@ -130,19 +131,19 @@ function initComparisons() {
 <!-- Since Github Pages seems to be flaky when using relative links from repo sites, use the full URL for the images -->
 <div class="img-comp-container">
   <div class="img-comp-img">
-    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe1b.jpg" width="1920" height="1080">
+    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe1b.jpg">
   </div>
   <div class="img-comp-img img-comp-overlay">
-    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe1a.jpg" width="1920" height="1080">
+    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe1a.jpg">
   </div>
 </div>
   
 <div class="img-comp-container">
   <div class="img-comp-img">
-    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe2b.jpg" width="1920" height="1080">
+    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe2b.jpg">
   </div>
   <div class="img-comp-img img-comp-overlay">
-    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe2a.jpg" width="1920" height="1080">
+    <img src="https://raw.githubusercontent.com/Kexikus/HQSkyboxes_k1_Comparison/main/img/HQSkyboxes_Taris_Wipe2a.jpg">
   </div>
 </div>
 

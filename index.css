@@ -59,7 +59,8 @@ a {
 
 ul {
   display: block;
-  width: min(142vh, 90vw);
+  width: 100%;
+  max-width: min(142vh, 90vw);
   margin: auto;
   margin-bottom: 20px;
   padding: 0;
@@ -85,4 +86,10 @@ li a {
 .selected a {
   border: solid #ff7800 2px;
   color: #ff7800;
+}
+
+a img {
+	width: min(142vh, 90vw);
+	max-width: 1080px;
+	margin-bottom: 20px;
 }

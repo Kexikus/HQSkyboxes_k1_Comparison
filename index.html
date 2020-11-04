@@ -12,6 +12,7 @@ body {
 .img-comp-container {
   position: relative;
   height: min(80vh, 51vw); /*should be the same height as the images*/
+  margin: auto;
   margin-bottom: 50px;
 }
 
@@ -24,7 +25,9 @@ body {
 
 .img-comp-img img {
   display:block;
-  vertical-align:middle;
+  vertical-align:middle;  
+  height: min(80vh, 51vw);
+  width: min(142vh, 90vw);
 }
 
 .img-comp-slider {
@@ -39,10 +42,6 @@ body {
   border-radius: 50%;
 }
 
-img {
-  height: min(80vh, 51vw);
-  width: min(142vh, 90vw);
-}
 </style>
 <script>
 function initComparisons() {
